@@ -1,7 +1,5 @@
 # cat-and-dogs-classification
 
-View [Live on Spaces](https://huggingface.co/spaces/eskayML/cat-and-dog-classifier)
-
 A machine learning project for classifying images of cats and dogs
 > Curated a dataset containing 25000 images of cats and dogs 
 
@@ -19,11 +17,11 @@ A machine learning project for classifying images of cats and dogs
 ## HOW TO USE THE APP LOCALLY
 
 ```console
-$ git clone https://github.com/eskayML/cat-and-dogs-classification
+$ git clone https://github.com/Bijay-Niroula/Dog-Vs-Cat-Image-Classifier
 
 ```
 ```console
-$ cd cat-and-dogs-classification
+$ cd Dog -Vs-Cat-Image-Classifer
 
 ```
 
