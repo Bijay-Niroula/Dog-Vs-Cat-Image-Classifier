@@ -75,4 +75,3 @@ streamlit run main.py
 
 ---
 
-Let me know if you’d like me to generate a DOCX version or add badges (e.g., build status, license, etc.)!
