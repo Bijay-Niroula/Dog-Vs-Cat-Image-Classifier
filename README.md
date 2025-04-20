@@ -1,38 +1,78 @@
-# cat-and-dogs-classification
+# 🐾 Cat vs. Dog Image Classifier
 
-A machine learning project for classifying images of cats and dogs
-> Curated a dataset containing 25000 images of cats and dogs 
+A machine learning project that classifies images of cats and dogs using Convolutional Neural Networks (CNNs).  
+> Utilizes a curated dataset of 25,000 labeled images of cats and dogs.
 
-## STEPS  I TOOK BUILDING THE APPLICATION:
-<hr>
-- I built a model using convnets architecture and applied techniques like data augmentation and transfer learning 
-<br>
-- I then fitted the model to a larger portion of the data (training set). Note that I used a smaller portion(about 20%) for testing/validation 
-<br>
-- Checked the performance on the test data
-<br>
-- I built an interface for the model using streamlit 
-- Live deployment to hugging face spaces
+---
 
-## HOW TO USE THE APP LOCALLY
+## 🚀 Project Overview
 
-```console
-$ git clone https://github.com/Bijay-Niroula/Dog-Vs-Cat-Image-Classifier
+This project demonstrates the development and deployment of a deep learning model to classify images as either a cat or a dog. It leverages CNN architecture, data augmentation, and transfer learning to improve accuracy and generalization. The application is deployed using Streamlit and hosted live on Hugging Face Spaces.
 
-```
-```console
-$ cd Dog -Vs-Cat-Image-Classifer
+---
 
-```
+## 🧠 Steps Taken in Building the Application
 
-```console
-$ pip install -r requirements.txt
+- Developed a CNN-based image classification model.
+- Employed **data augmentation** and **transfer learning** to enhance model performance.
+- Trained the model using 80% of the dataset and reserved 20% for validation/testing.
+- Evaluated the model’s performance on unseen test data.
+- Built an interactive user interface using **Streamlit**.
+- Deployed the application to **Hugging Face Spaces** for public access.
 
-```
-Install the dependencies using the command above and then run 
+---
 
-```console
-$ streamlit run main.py
+## 💻 Run the Application Locally
 
+Follow these steps to set up and run the application on your local machine:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Bijay-Niroula/Dog-Vs-Cat-Image-Classifier
 ```
 
+### 2. Navigate to the Project Directory
+
+```bash
+cd Dog-Vs-Cat-Image-Classifier
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit Application
+
+```bash
+streamlit run main.py
+```
+
+---
+## 📂 Dataset
+
+- The dataset consists of **25,000 labeled images** of cats and dogs.
+- It can be accessed from [Kaggle - Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats/data).
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **TensorFlow / Keras**
+- **Streamlit**
+- **Hugging Face Spaces**
+- **OpenCV & NumPy**
+
+---
+
+## 🙌 Acknowledgments
+
+- Inspired by the Kaggle Dogs vs. Cats Challenge.
+- Thanks to open-source contributors and the Streamlit community.
+
+---
+
+Let me know if you’d like me to generate a DOCX version or add badges (e.g., build status, license, etc.)!
